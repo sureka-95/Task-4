@@ -1,1 +1,17 @@
+# Given list
+numbers = [10, 501, 22, 37, 100, 99, 87, 351]
 
+# Creating empty lists
+even_numbers = []
+odd_numbers = []
+
+# Using a for loop to separate numbers
+for num in numbers:
+    if num % 2 == 0:#i check if it is divisible by 2 
+        even_numbers.append(num)# then add 
+    else:
+        odd_numbers.append(num)# not divisble by 2
+
+# Printing the results
+print("Even numbers:", even_numbers)
+print("Odd numbers:", odd_numbers)
